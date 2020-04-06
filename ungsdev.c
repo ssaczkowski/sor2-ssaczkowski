@@ -76,7 +76,6 @@ static int device_open(struct inode *inode, struct file *filp)
     Device_Open++;
 
     sprintf(msg, "%s",msg);
-    printk(KERN_ALERT "Resultado de cat /dev/UNGS => %s\n", msg);
 
     msg_Ptr = msg;
 
@@ -139,8 +138,8 @@ static ssize_t device_write(struct file *file,
 
         msg_Ptr = msg;
 
-        printk(KERN_ALERT "Mensaje MSG[%s] guardado para ser leido por cat /dev/UNGS.\n",msg);
-- Hide quoted text -
+        printk(KERN_ALERT "Mensaje guardado para ser leido por cat /dev/UNGS. \n");
+
 
         return i;
 
