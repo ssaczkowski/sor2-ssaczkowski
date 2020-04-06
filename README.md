@@ -6,7 +6,7 @@ Se debe elaborar un kernel module para un char device definiendo las siguientes 
 
 Al escribirle al char device debe imprimir en el kernel lo último que fue escrito. Utilizando el material de lectura The Linux Kernel Module Programming Guide que se puede acceder mediante el siguiente enlace (https://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf).
 
-Mauquina Virtual: Lubuntu. (https://www.osboxes.org/virtualbox-images/)
+Máquina Virtual: Lubuntu. (https://www.osboxes.org/virtualbox-images/)
 
 
 
